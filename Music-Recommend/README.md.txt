@@ -1,0 +1,6 @@
+# Strawhat-Labs-Intern-AI
+--------------------------------------------------------------------------------------------------------
+## Music Recommendation System
+
+We made a Music Recommendation System as a part of our Intern Hackathon @Strawhatlabs Pvt Ltd. The main purpose of this music recommendation system was to recommend music nfts to the user based on the preferences of the user. We first studied a music recommendation model made on spotify dataset and then we tried implementing our own customized model for music-nft recommendation. Spotify music recommendation was a Web2 model where as Music-nfts are Web3; as a result, we didn't have enough dataset. We scraped the music nft dataset from Magic Eden and then incorporated all the scraped data into a .csv file which completes our data collection stage. Then we preprocessed and cleaned the data and built a simple recommendation system using KMeans clustering having 3 clusters(which was deduced by means of Elbow Test Analysis we performed). AS music-nft data is multidimensional data and as Euclidean distance doesn't work well on multidimensional data, we switched out algorithm to Cosine Similarity based recommendation and also we tried Meanshift Clustering ALgorithm. We successfully recommended top 5 music-nfts from every track of the dataset inorder to provide user more options for choosing the nfts.
+  
